@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(80, 80, 80);
+    grid-template-areas: "topo" "card" "rodape";
+}
+
+header{
+    color: white;
+}
+
+section{
+    padding: 10px;
+    background-color: rgb(223, 218, 218);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    width: 40%;
+    margin: auto;
+}
+
+input{
+    border: 0.5;
+    border-radius: 8px;
+    width: 100px;
+    height: 20px;
+}
+
+button{
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: rgb(0, 102, 255);
+    border: 0;
+    border-radius: 8px;    
+}
+button:hover{
+    background-color: rgb(0, 60, 255);
+    transition: 0.5;
+}
+
+#res{
+    padding: 10px;
+}
+
+.rodape{
+    grid-area: rodape;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+}
