@@ -3,7 +3,6 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     background-color: rgb(80, 80, 80);
-    grid-template-areas: "topo" "card" "rodape";
 }
 
 header{
@@ -18,6 +17,7 @@ section{
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
     width: 40%;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 input{
@@ -45,8 +45,8 @@ button:hover{
 }
 
 .rodape{
-    grid-area: rodape;
-    position: absolute;
+    position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
     background-color: rgb(73, 73, 73);

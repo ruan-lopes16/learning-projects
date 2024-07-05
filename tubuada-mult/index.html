@@ -12,23 +12,25 @@
     </header>
 
     <section class="card">
-        <div id="tab">
+        <div>
             <p>De qual número você deseja saber a tabuada?</p>
-            <input type="number">
+            <input type="number" id="num">
         </div>
-        <div id="num">
+        <div>
             <p>Até quanto você deseja multiplicar esse número?</p>
-            <input type="number">
+            <input type="number" id="end">
         </div> <br>
         <button type="button" onclick="Tabuada()">CALCULAR</button>
-        <div id="res">Preencha os valores acima!</div>
+        <div id="res">
+            <p>Preencha os valores acima!</p>
+        </div>
     </section>
 
     <footer class="rodape">
         <a href="https://github.com/ruan-lopes16" target="_blank" rel="noopener noreferrer">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="40px"/>
         </a>
-        <p>Ruan S. Lopes &copy;</p>
+        <p>Ruan S. Lopes &copy; <span id="date-y"></span></p>
         <a href="https://www.linkedin.com/in/ruanslopes/" target="_blank" rel="noopener noreferrer">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" width="40px"/>
         </a>
